@@ -1,4 +1,4 @@
-# CIC!  [![TICKITZ](https://awesome.re/badge-flat2.svg)](https://)
+# CIC  [![TICKITZ](https://awesome.re/badge-flat2.svg)](https://)
 <h3 align="center">
 
 ![](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header)
@@ -9,7 +9,7 @@
   
 ---
 <div align="center">
-# About : a website about service providers with the cic and home media brands that provide wifi, IPTV, smart residence, hosting and more.
+a website about service providers with the cic and home media brands that provide wifi, IPTV, smart residence, hosting and more.
   
 ---
 [![Vercel Status](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://tizkitpremium.vercel.app/)
