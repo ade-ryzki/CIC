@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# CIC!  [![TICKITZ](https://awesome.re/badge-flat2.svg)](https://)
+<h3 align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header)
 
-## Available Scripts
+<img src="https://camo.githubusercontent.com/5bbf8ca61ef5f92684489ace45ad6f45984fff87a621040c62b1fe31e3005ff9/687474703a2f2f692e696d6775722e636f6d2f436a34724d72532e676966" width="30">
+  Welcome to CIC!
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
+  
+---
+<div align="center">
+# About : a website about service providers with the cic and home media brands that provide wifi, IPTV, smart residence, hosting and more.
+  
+---
+[![Vercel Status](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://tizkitpremium.vercel.app/)
+## Getting Started
+  
+### Installation
+  
+1. Clone this repos (CIC)
+```sh
+git clone ***************************
+```
+2. Go To Folder Repo
+```sh
+code .
+```
+3. Install Module
+```sh
+npm install
+```
+  
+4. Start website
+```sh
+npm start
+```
 
-In the project directory, you can run:
+# Features Application
+- [x] Home.
+- [x] Product.
+- [x] About CIC.
+- [x] Help & Support.
+- [x] Portfolio.
+## Screenshots  
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
+# Our Team - Tickitz!
+ | profile | Name | Stack | Github | Linkedin |
+ | ------- | ---- | ------ | ------ | -------- |
+ | ![profile Ade][img-Ade] | Ade Ryzki Aprinata | Fullstack | [Ade](https://github.com/ade-ryzki)|[Ade](https://www.linkedin.com/in/aderyzki/)
+  
+[img-Ade]: https://avatars.githubusercontent.com/u/95088271?v=4
