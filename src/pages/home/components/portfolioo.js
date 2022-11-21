@@ -64,7 +64,7 @@ const portfolioo = () => {
             </div> 
             <div className="card-actions justify-end my-5">
                 <Link to='/portfolio'>
-                <button className="btn btn-primary mr-5">More Portfolio</button>
+                <button className="btn transition ease-in-out delay-150 bg-[#CFCFD2] bg-opacity-50 hover:-translate-y-1  hover:bg-[#a1a1a3] hover:bg-opacity-70 duration-300 rounded-2xl mr-5">More Portfolio</button>
                 </Link>
             </div>
             </div>
