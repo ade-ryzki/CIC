@@ -49,4 +49,4 @@ npm start
  | ------- | ---- | ------ | ------ | -------- |
  | ![profile Ade][img-Ade] | Ade Ryzki Aprinata | Fullstack | [Ade](https://github.com/ade-ryzki)|[Ade](https://www.linkedin.com/in/aderyzki/)
   
-[img-Ade]: https://avatars.githubusercontent.com/u/95088271?v=4
+[img-Ade]: https://avatars.githubusercontent.com/u/95088271?s=400&u=b013ad92f6887845be279a720f0f1b4eefde31f9&v=4
