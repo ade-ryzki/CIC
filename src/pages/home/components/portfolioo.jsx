@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const portfolioo = () => {
 	return (
         <>
-            <div className="bg">
+            <div>
             <div className="bg-[#9ACD32] bg-opacity-20 font-['Rubik'] py-5 rounded-xl mx-5 my-5">
             <div className="text-center text-black font-bold text-4xl ">
                 <h2 className="my-5">Portfolio</h2>
