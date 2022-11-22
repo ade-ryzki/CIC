@@ -9,7 +9,7 @@
   
 ---
 <div align="center">
-a website about service providers with the cic and home media brands that Internet, IPTV, Smart Residence, Hosting and more.
+a website about internet Services provider with the cic and home media brands that Internet, IPTV, Smart Residence, Hosting and more.
   
 ---
 [![Vercel Status](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://tizkitpremium.vercel.app/)
