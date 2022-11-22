@@ -85,22 +85,22 @@ export default why
 //                     Dual Backbone ke jaringan internasional
 //                     </h1>
 //                 </div>
-//                 <div className="col-span-1 bg-[#FFBA33] bg-opacity-60 rounded-lg m-3 justify-center text-center py-5 font-semibold text-lg shadow-lg">
+//                 <div className="col-span-1 bg-[#9ACD32] bg-opacity-60 rounded-lg m-3 justify-center text-center py-5 font-semibold text-lg shadow-lg">
 //                     <h1 className="m-6 ">
 //                     UPS & Backup Generator
 //                     </h1>
 //                 </div>
-//                 <div className="col-span-1 bg-[#FFBA33] bg-opacity-60 rounded-lg m-3 justify-center text-center py-5 font-semibold text-lg shadow-lg">
+//                 <div className="col-span-1 bg-[#CFCFD2] bg-opacity-60 rounded-lg m-3 justify-center text-center py-5 font-semibold text-lg shadow-lg">
 //                     <h1 className="m-6 ">
 //                     Wireless & Fiber Optic
 //                     </h1>
 //                 </div>
-//                 <div className="col-span-2 bg-[#9ACD32] bg-opacity-60 rounded-lg m-3 justify-center text-center py-5 font-semibold text-lg shadow-lg">
+//                 <div className="col-span-2 bg-[#CFCFD2] bg-opacity-60 rounded-lg m-3 justify-center text-center py-5 font-semibold text-lg shadow-lg">
 //                     <h1 className="m-6 ">
 //                     Terkoneksi ke IIX Indonesia Internet Exchange
 //                     </h1>
 //                 </div>
-//                 <div className="col-span-2 bg-[#9ACD32] bg-opacity-60 rounded-lg m-3 justify-center text-center py-5 font-semibold text-lg shadow-lg">
+//                 <div className="col-span-2 bg-[#FFBA33] bg-opacity-60 rounded-lg m-3 justify-center text-center py-5 font-semibold text-lg shadow-lg">
 //                     <h1 className="m-6 ">
 //                     Terkoneksi KE IX Internet Exchange
 //                     </h1>

@@ -4,6 +4,7 @@ import Footer from '../../components/footer';
 import Narrative from './../about/components/narrative'
 import Bannerabout from'./../about/components/bannerabout'
 import Why from'./../about/components/why'
+import Icon from'../about/components/icon'
 
 const About = () => {
 	return (
@@ -13,6 +14,7 @@ const About = () => {
     <Bannerabout/>
     <Narrative/>
     <Why/>
+    <Icon/>
     <Footer/>
     </>
 		

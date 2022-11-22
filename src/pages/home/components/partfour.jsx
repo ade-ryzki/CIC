@@ -14,7 +14,7 @@ const partfour = () => {
                 <div className="text-center text-black font-bold text-4xl ">
                 <h2>Our Partner</h2>
                 </div>
-                <div className="flex flex-wrap justify-center mt-10  ">
+                <div className="flex flex-wrap justify-around mt-10  ">
                 <div className="mx-5 my-5 item-center">
                     <img src={huawei} alt="" className="w-24" />
                 </div>
