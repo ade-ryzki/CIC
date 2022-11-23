@@ -27,11 +27,11 @@ const contact = () => {
                                 <h3 className="text-lg font-bold">CHAT US </h3>
                                 <div className="flex flex-wrap justify-around  py-4">
                                 <div className="mx-5 my-5 item-center font-semibold text-center">
-                                    <a href="https://api.whatsapp.com/send/?phone=62811275751545&amp;text=Halo+saya+ingin+bertanya&amp;type=phone_number"><img src={wa} alt="" className="w-24 justify-items-center"/></a>
+                                    <a href="https://api.whatsapp.com/send/?phone=6281270619933&amp;text=Halo+saya+ingin+bertanya+kepada+layanan+CIC&amp;type=phone_number"><img src={wa} alt="" className="w-24 justify-items-center"/></a>
                                     <h1 className="font-['Rubik'] font-semibold">CIC</h1>
                                 </div>
                                 <div className="mx-5 my-5 item-center text-center">
-                                <a href="https://api.whatsapp.com/send/?phone=62811275751545&amp;text=Halo+saya+ingin+bertanya&amp;type=phone_number"><img src={wa} alt="" className="w-24 justify-center"/></a>
+                                <a href="https://api.whatsapp.com/send/?phone=6282392679933&amp;text=Halo+saya+ingin+bertanya+kepada+layanan+HOMEMEDIA&amp;type=phone_number"><img src={wa} alt="" className="w-24 justify-center"/></a>
                                     <h1 className="font-['Rubik'] font-semibold">HOME MEDIA</h1>
                                 </div>
                                 </div>
