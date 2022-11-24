@@ -6,6 +6,7 @@ import Contact from './pages/helpsupport/index'
 import Product from './pages/product/index'
 import Portfolio from './pages/Portfolio/index'
 
+
 const App=()=> {
   return(
       <Routes>
@@ -14,6 +15,7 @@ const App=()=> {
         <Route path='/help&support' element={<Contact/>}/>
         <Route path='/product' element={<Product/>}/>
         <Route path='/portfolio' element={<Portfolio/>}/>
+        <Route path='/portfolioo' element={<Portfolio/>}/>
       </Routes>
   )
 }

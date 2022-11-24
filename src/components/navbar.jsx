@@ -19,7 +19,7 @@ const Navbar =()=>{
                         Product
                         <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
                     </a>
-                    <ul className="p-2 rounded-lg transition ease-in-out delay-150 bg-[#9ACD32] bg-opacity-70 hover:-translate-y-1  hover:bg-[#FFBA33]  duration-300 ab">
+                    <ul className=" absolutep-2 rounded-lg transition ease-in-out delay-150 bg-[#9ACD32] bg-opacity-70 hover:-translate-y-1  hover:bg-[#FFBA33]  duration-300 ab">
                     <li><a className="hover:underline">Internet Service</a></li>
                     <li><a className="hover:underline">IPTV</a></li>
                     <li><a className="hover:underline">Fiber Optic Lastmile</a></li>
