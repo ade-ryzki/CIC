@@ -8,8 +8,8 @@ import cicsupport from './../../../img/cicsupport.png'
 const contact = () => {
 	return (
         <>
-            <div className="font-['Rubik']">
-            <div className="bg-[#CFCFD2] bg-opacity-20 font-['Rubik'] py-5 rounded-xl mx-5 my-5">
+            <div className="font-['Rubik'] my-10 ">
+            <div className="bg-[#CFCFD2] bg-opacity-20 font-['Rubik'] py-5 rounded-xl mx-5 my-5 shadow-xl">
                 <div className="text-center text-black font-bold text-4xl ">
                     <h2>Contact Us</h2>
                 </div>
@@ -23,7 +23,7 @@ const contact = () => {
                         <div className="modal">
                             <div className="modal-box relative bg-[#CFCFD2] bg-opacity-80">
                                 <label htmlFor="my-modal-3" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
-                                <h3 className="text-lg font-bold text-2xl">CHAT </h3>
+                                <h3 className="font-bold text-2xl">CHAT </h3>
                                 <div className="flex flex-wrap justify-around  py-4">
                                 <div className="mx-5 my-5 item-center font-semibold text-center">
                                     <a href="https://api.whatsapp.com/send/?phone=6281270619933&amp;text=Halo+saya+ingin+bertanya+kepada+layanan+CIC&amp;type=phone_number"><img src={wa} alt="" className="w-24 justify-items-center"/></a>

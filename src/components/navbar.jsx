@@ -19,7 +19,7 @@ const Navbar =()=>{
                         Product
                         <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
                     </a>
-                    <ul className=" absolutep-2 rounded-lg transition ease-in-out delay-150 bg-[#9ACD32] bg-opacity-70 hover:-translate-y-1  hover:bg-[#FFBA33]  duration-300 ab">
+                    <ul className=" absolute-2 rounded-lg transition ease-in-out delay-150 bg-[#9ACD32] bg-opacity-70 hover:-translate-y-1  hover:bg-[#FFBA33]  duration-300">
                     <li><a className="hover:underline">Internet Service</a></li>
                     <li><a className="hover:underline">IPTV</a></li>
                     <li><a className="hover:underline">Fiber Optic Lastmile</a></li>
@@ -40,19 +40,20 @@ const Navbar =()=>{
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0 text-xl font-semibold">
                 <Link to='/'><li><a className='hover:underline duration-300'>Home</a></li></Link>
-                <li tabIndex={0}>
+                <Link to='/product'><li><a className='hover:underline duration-300'>Product</a></li></Link>
+                {/* <li tabIndex={0}>
                     <a className="text-xl font-semibold" href='/product'>
                     Product
                     <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
                     </a>
-                    <ul className="p-2 rounded-lg transition ease-in-out delay-150 bg-[#9ACD32] bg-opacity-70 hover:-translate-y-1  hover:bg-[#FFBA33] duration-300">
+                    <ul className=" absolute-2 rounded-lg transition ease-in-out delay-150 bg-[#9ACD32] bg-opacity-70 hover:-translate-y-1  hover:bg-[#FFBA33]  duration-300">
                     <li><a className="hover:underline">Internet Service</a></li>
                     <li><a className="hover:underline">IPTV</a></li>
                     <li><a className="hover:underline">Fiber Optic Lastmile</a></li>
                     <li><a className="hover:underline">CIC Smart Residence</a></li>
                     <li><a className="hover:underline">Hosting Service</a></li>
                     </ul>
-                </li>
+                </li> */}
                 <li>
                     <Link to='/about'>
                         <a className="hover:underline duration-300">About CIC</a>

@@ -1,7 +1,7 @@
 import React from "react";
-import banner from '../../../img/baner.jpg'
-import banner2 from '../../../img/baner2.jpg'
-import banner3 from '../../../img/baner3.jpg'
+// import banner from '../../../img/baner.jpg'
+// import banner2 from '../../../img/baner2.jpg'
+// import banner3 from '../../../img/baner3.jpg'
 
 const partOne = () => {
 	return (
@@ -9,7 +9,7 @@ const partOne = () => {
     <>
     <div>
         <div className="w-full carousel rounded-sm ">
-            <div className="carousel-item w-full h-96">
+            {/* <div className="carousel-item w-full h-96">
                 <img src={banner} className="w-full" alt="Tailwind CSS Carousel component" />
             </div> 
             <div className="carousel-item w-full h-96">
@@ -17,7 +17,7 @@ const partOne = () => {
             </div> 
             <div className="carousel-item w-full h-96">
             <img src={banner2} className="w-full" alt="Tailwind CSS Carousel component" />
-            </div> 
+            </div>  */}
         </div>
     </div>
    {/* <div className="carousel w-full h-1/2">
