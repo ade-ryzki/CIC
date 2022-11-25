@@ -1,5 +1,7 @@
 import React from "react"
 import logo from'./../img/logo.png'
+import insta from './../img/insta.png'
+import fb from './../img/fb.png'
 
 const Footer =()=>{
     return (
@@ -9,6 +11,11 @@ const Footer =()=>{
                     {/* <img src={Logo} alt='logo' width="50" height="50" viewBox="0 0 24 24" > */}
                     <img src={logo} alt="logo" className="w-32"/>
                     <p className="font-semibold">PT.Cipta Informatika Cemerlang <br/>Providing reliable tech since 2009</p>
+                    <div className="flex flex-wrap justify-center">
+                        <a href='https://www.instagram.com/cic_batam/'> <img src={insta} alt='' className="w-10 mx=-3 rounded-md"/></a>
+                        <a href='https://www.facebook.com/ciptainformatikacemerlang/'><img  src={fb} alt='' className="w-10 mx-3"/></a>
+                        
+                    </div>
                 </div> 
                 <div>
                     <span className="footer-title">Services</span> 

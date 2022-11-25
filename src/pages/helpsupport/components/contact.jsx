@@ -16,7 +16,7 @@ const contact = () => {
                 <div className="flex flex-wrap justify-around mt-10  ">
                         <label htmlFor="my-modal-3" >
                             <div className="mx-5 my-5 item-center">
-                                <img src={chat} alt="" className="w-24"  />
+                                <img src={chat} alt="" className="w-24"/>
                             </div>
                         </label>
                         <input type="checkbox" id="my-modal-3" className="modal-toggle" />
