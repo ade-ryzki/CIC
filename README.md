@@ -40,7 +40,6 @@ npm start
 - [x] Product.
 - [x] About CIC.
 - [x] Help & Support.
-- [x] Portfolio.
 ## Screenshots  
 
   
