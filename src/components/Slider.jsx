@@ -2,12 +2,12 @@ import React, { useState, useEffect, useRef } from "react";
 import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
 
 const featuredProducts = [
-  // "/images/hero_1.jpg",
-  // "/images/hero_2.jpg",
-  // "/images/hero_3.jpg",
-  "/images/p1.png",
-  "/images/p2.png",
-  "/images/p3.png",
+  "/images/hero_1.jpg",
+  "/images/hero_2.jpg",
+  "/images/hero_3.jpg",
+  // "/images/p1.png",
+  // "/images/p2.png",
+  // "/images/p3.png",
 ];
 
 let count = 0;

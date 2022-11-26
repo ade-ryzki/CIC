@@ -11,7 +11,8 @@
         lat: 1.1533874199001755,
         lng: 104.0047102910837,
     };
-  
+
+    
     // ContainerStyle Berfungsi Untuk Mengatur StyleContainer Untuk google maps
     const containerStyle = {
       width: '500px',
@@ -34,7 +35,7 @@
                                 center={center}
                                 zoom={20}
                             >
-                                <Marker
+                                <Marker className=''
                                 //Titik Marker akan di letakkan dengan menentukan LongLat
                                 position={{
                                     lat: 1.1533874199001755,
