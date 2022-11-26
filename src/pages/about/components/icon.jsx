@@ -15,11 +15,11 @@ const icon = () => {
                 </div>
                 <div className="mx-5 my-5  py-10 item-center">
                     <img src={team} alt="" className="w-36" />
-                    <h1 className='mt-3 ml-7 text-xl font-semibold'>Our Commitments</h1>
+                    <h1 className='mt-3 ml- text-xl font-semibold'>Our Commitments</h1>
                 </div>
                 <div className="mx-5 my-5  py-10 item-center">
                     <img src={mc} alt="" className="w-36"/>
-                    <h1 className='mt-3 ml-7 text-xl font-semibold'>Media centre</h1>
+                    <h1 className='mt-3 ml-4 text-xl font-semibold'>Media centre</h1>
                 </div>
                
                 </div>
