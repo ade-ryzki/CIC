@@ -19,23 +19,22 @@ const Footer =()=>{
                 </div> 
                 <div>
                     <span className="footer-title">Services</span> 
-                    <a className="link link-hover">CIC Smart Residence</a> 
-                    <a className="link link-hover">Fiber Optic Lastmile</a> 
-                    <a className="link link-hover">IPTV</a> 
-                    <a className="link link-hover">Internet</a>
-                    <a className="link link-hover">Hosting</a>
+                    <a className="">CIC Smart Residence</a> 
+                    <a className="">Fiber Optic Lastmile</a> 
+                    <a className="">IPTV</a> 
+                    <a className="">Internet</a>
+                    <a className="">Hosting</a>
                 </div> 
                 <div>
                     <span className="footer-title">Company</span> 
-                    <a className="link link-hover">About us</a> 
-                    <a className="link link-hover">Contact</a> 
-                    <a className="link link-hover">Jobs</a> 
+                    <a className="link link-hover" href='/about'>About Cic</a> 
+                    <a className="link link-hover" href='/help&support'>Contact</a> 
                 </div> 
                 <div>
                     <span className="footer-title">Legal</span> 
-                    <a className="link link-hover">Terms of use</a> 
-                    <a className="link link-hover">Privacy policy</a> 
-                    <a className="link link-hover">Cookie policy</a>
+                    <a className="">Terms of use</a> 
+                    <a className="">Privacy policy</a> 
+                    <a className="">Cookie policy</a>
                 </div>
                 </footer>
         </>
