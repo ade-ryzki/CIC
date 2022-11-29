@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
 
 const featuredProducts = [
-  "/images/hero_1.jpg",
+  "/images/wallpro.jpg",
   "/images/hero_2.jpg",
   "/images/hero_3.jpg",
   // "/images/p1.png",
@@ -56,12 +56,13 @@ export default function Slider() {
   };
 
   return (
-    <div ref={slideRef} className="w-full select-none relative">
+    
+    <div ref={slideRef} className="m-5 rounded-lg select-none">
       <div className="aspect-w-16 aspect-h-9">
-        <img src={featuredProducts[currentIndex]} alt="" className="w-full h-96 rounded-b-lg"/>
+        <img src={featuredProducts[currentIndex]} alt="" className="w-full  rounded-b-lg"/>
       </div>
 
-      <div className="absolute w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-between items-center">
+      {/* <div className="absolute w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-between items-center">
         <button
           className="bg-black text-white p-1 rounded-full bg-opacity-50 cursor-pointer hover:bg-opacity-100 transition"
           onClick={handleOnPrevClick}
@@ -74,7 +75,7 @@ export default function Slider() {
         >
           <AiOutlineVerticalLeft size={30} />
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }

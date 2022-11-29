@@ -14,11 +14,11 @@ const Home = () => {
 	return (
     <>
       <Navbar/>
+      <Partfour/>
       <Slider/>
-      {/* <Banner/> */}
       <Ourproduct/>
       <Partthree/>
-      <Partfour/>
+      
       <Portfolioo/>
       <Footer/>
       

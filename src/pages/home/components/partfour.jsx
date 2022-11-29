@@ -10,11 +10,14 @@ const partfour = () => {
 	return (
         <>
             <div className="bg">
-            <div className="bg-[#CFCFD2] bg-opacity-20 font-['Rubik'] py-5 rounded-xl mx-5 my-5">
-                <div className="text-center text-black font-bold text-4xl ">
-                <h2>Our Partner</h2>
+            <div className="bg-gradient-to-r from-lime-400   font-['Rubik'] py-5 rounded-b-3xl mx-5 mb-5">
+                <div className="text-center  font-bold text-4xl ">
+                <h1 className="font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-orange-500  to-lime-500">Apakah Sudah Terkoneksi Internet !</h1>
+                </div><br/>
+                <div className="text-center text-black font-bold text-2xl ">
+                <h2>Koneksikan internetmu  secara Unlimited dan jelajahi dunia dengan satu genggaman</h2>
                 </div>
-                <div className="flex flex-wrap justify-around mt-10  ">
+                {/* <div className="flex flex-wrap justify-around mt-10  ">
                 <div className="mx-5 my-5 item-center">
                     <img src={huawei} alt="" className="w-24" />
                 </div>
@@ -33,7 +36,7 @@ const partfour = () => {
                 <div className="mx-5 my-5 item-center">
                     <img src={zte} alt="" className="w-28"/>
                 </div>
-                </div>
+                </div> */}
             </div>
             </div>
         </>     
