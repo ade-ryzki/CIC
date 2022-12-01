@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Navbar =()=>{
     return(
         <>
-         <div className=" navbar font-['Rubik']  divide-y-reverse shadow-xl">
+         <div className=" navbar font-['Rubik']  divide-y-reverse shadow-sm">
             <div className="navbar-start ml-5">
                 <div className="dropdown ">
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
