@@ -2,10 +2,10 @@ import React, { useState, useEffect, useRef } from "react";
 import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
 
 const featuredProducts = [
-  "/images/wallpro.jpg",
-  "/images/p1.png",
-  // "/images/p2.png",
-  "/images/p3.png",
+  "/images/01.png",
+  "/images/02.png",
+  "/images/03.png",
+  "/images/04.png",
 ];
 
 let count = 0;
@@ -34,7 +34,7 @@ export default function Slider() {
   const startSlider = () => {
     slideInterval = setInterval(() => {
       handleOnNextClick();
-    }, 4000);
+    }, 3000);
   };
 
   const pauseSlider = () => {
@@ -60,20 +60,20 @@ export default function Slider() {
         <img src={featuredProducts[currentIndex]} alt="" className="w-full rounded-lg"/>
       </div>
 
-      {/* <div className="absolute w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-between items-center">
+      <div className="w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-center items-center">
         <button
-          className="bg-black text-white p-1 rounded-full bg-opacity-50 cursor-pointer hover:bg-opacity-100 transition"
+          className="bg-black text-white p-1 rounded-full bg-opacity-50 cursor-pointer hover:bg-opacity-100 transition mx-2"
           onClick={handleOnPrevClick}
         >
           <AiOutlineVerticalRight size={30} />
         </button>
         <button
-          className="bg-black text-white p-1 rounded-full bg-opacity-50 cursor-pointer hover:bg-opacity-100 transition"
+          className="bg-black text-white p-1 rounded-full bg-opacity-50 cursor-pointer hover:bg-opacity-100 transition mx-2"
           onClick={handleOnNextClick}
         >
           <AiOutlineVerticalLeft size={30} />
         </button>
-      </div> */}
+      </div>
     </div>
   );
 }
