@@ -6,6 +6,7 @@ const bannerabout =()=>{
         <>
         <div>
         <img src={Router} atl='router' className='w-full shadow-xl'/>
+        
         </div>
         </>
     )
