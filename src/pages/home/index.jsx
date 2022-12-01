@@ -3,7 +3,7 @@ import Navbar from '../../components/navbar';
 // import Banner from './components/Banner';
 import Ourproduct from './components/Ourproduct';
 import Footer from '../../components/footer'
-import Partfour from './components/partfour'
+import Welcome from './components/welcome'
 import Partthree from './components/partthree';
 import Portfolioo from './components/portfolioo';
 import Slider from "../../components/Slider";
@@ -14,12 +14,11 @@ const Home = () => {
 	return (
     <>
       <Navbar/>
-      <Partfour/>
-      <Slider/>
+      <Welcome/>
       <Ourproduct/>
-      <Partthree/>
-      
-      <Portfolioo/>
+      <Slider/>
+      {/* <Partthree/>
+      <Portfolioo/> */}
       <Footer/>
       
     </>

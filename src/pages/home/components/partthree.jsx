@@ -7,7 +7,7 @@ const partthree = () => {
     <>
         <>
         <div className="bg-base-200">
-        <div className=" bg-[#FFBA33] bg-opacity-20  font-['rubik'] rounded-xl mx-5 my-5">
+        <div className=" bg-gradient-to-r from-orange-400  font-['rubik'] rounded-xl mx-10 my-5 ">
             <div className="text-center font-bold text-4xl">
                 <br/><h1>Map Location</h1>
             </div>

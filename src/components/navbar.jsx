@@ -11,7 +11,7 @@ const Navbar =()=>{
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </label>
-                <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow text-Black  w-52 rounded-lg transition ease-in-out delay-150 bg-gradient-to-r from-lime-400 to-white hover:from-white hover:to-lime-400 hover:-translate-y-1  hover:bg-[#FFBA33]  duration-300">
+                <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow text-Black  w-52 rounded-lg transition ease-in-out delay-150 bg-gradient-to-r from-orange-400  to-white hover:from-white hover:to-lime-400 hover:-translate-y-1  opacity-90  duration-300">
                     <li><a className="hover:underline" href='/'>Home</a></li>
                     <li tabIndex={0}>
                     <a className="justify-between hover:underline" href='/product'>

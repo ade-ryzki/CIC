@@ -3,11 +3,9 @@ import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from "react-icons/ai";
 
 const featuredProducts = [
   "/images/wallpro.jpg",
-  "/images/hero_2.jpg",
-  "/images/hero_3.jpg",
-  // "/images/p1.png",
+  "/images/p1.png",
   // "/images/p2.png",
-  // "/images/p3.png",
+  "/images/p3.png",
 ];
 
 let count = 0;
@@ -36,7 +34,7 @@ export default function Slider() {
   const startSlider = () => {
     slideInterval = setInterval(() => {
       handleOnNextClick();
-    }, 3000);
+    }, 4000);
   };
 
   const pauseSlider = () => {
@@ -57,9 +55,9 @@ export default function Slider() {
 
   return (
     
-    <div ref={slideRef} className="m-5 rounded-lg select-none">
-      <div className="aspect-w-16 aspect-h-9">
-        <img src={featuredProducts[currentIndex]} alt="" className="w-full  rounded-b-lg"/>
+    <div ref={slideRef} className=" rounded-lg select-none">
+      <div className="aspect-w-16 aspect-h-9 m-5">
+        <img src={featuredProducts[currentIndex]} alt="" className="w-full rounded-lg"/>
       </div>
 
       {/* <div className="absolute w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-between items-center">

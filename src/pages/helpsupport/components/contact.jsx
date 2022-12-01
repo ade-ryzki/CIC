@@ -8,8 +8,8 @@ import cicsupport from './../../../img/cicsupport.png'
 const contact = () => {
 	return (
         <>
-            <div className="font-['Rubik'] my-10 ">
-            <div className="bg-[#CFCFD2] bg-opacity-20 font-['Rubik'] py-5 rounded-xl mx-5 my-5 shadow-xl">
+            <div className="font-['Rubik']  ">
+            <div className="bg-gradient-to-r from-slate-400  to-lime-400 font-['Rubik'] py-20 rounded-xl  shadow-lg">
                 <div className="text-center text-black font-bold text-4xl ">
                     <h2>Contact Us</h2>
                 </div>
