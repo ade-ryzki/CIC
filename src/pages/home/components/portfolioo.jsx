@@ -10,7 +10,7 @@ const portfolioo = () => {
 	return (
         <>
             <div>
-            <div className="bg-[#9ACD32] bg-opacity-20 font-['Rubik'] py-5 rounded-xl mx-5 my-5">
+            <div className="bg-gradient-to-r from-white to-lime-400 font-['Rubik'] py-5 -3xl  rounded-tr-2xl md:rounded-tr-3xl  mr-5  ">
             <div className="text-center text-black font-bold text-4xl ">
                 <h2 className="my-5">Portfolio</h2>
                 </div>
@@ -93,5 +93,3 @@ const portfolioo = () => {
 };
 
 export default portfolioo;
-
-//<a href="https://api.whatsapp.com/send/?phone=62811275751545&amp;text=Halo+saya+ingin+bertanya&amp;type=phone_number"><img src={wa} alt=""/></a>

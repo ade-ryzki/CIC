@@ -17,8 +17,8 @@ const Home = () => {
       <Welcome/>
       <Ourproduct/>
       <Slider/>
-      {/* <Partthree/>
-      <Portfolioo/> */}
+      {/* <Partthree/> */}
+      <Portfolioo/>
       <Footer/>
       
     </>

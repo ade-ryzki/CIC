@@ -13,7 +13,7 @@ const parttwo = () => {
             <div className="bg-white text-black ">
                 <div className="mx-5 my-14">
                     <div className="mb-5 font-bold text-4xl">
-                        <h1>
+                        <h1 className="font-extrabold text-transparent text-lg md:text-4xl bg-clip-text bg-gradient-to-r from-orange-500 via-slate-400 to-lime-500">
                            Ngegaming Tampa Mikir Habis Kuota! 
                         </h1 >
                     </div>
@@ -46,7 +46,7 @@ const parttwo = () => {
             </div>
             <div className="mx-5 my-14">
                  <div className="mb-5 font-bold text-4xl">
-                    <h1>
+                    <h1 className="font-extrabold text-transparent text-lg md:text-4xl bg-clip-text bg-gradient-to-r from-orange-500 via-slate-400 to-lime-500">
                         CIC Unlimited Dan Layanan 24 Jam! 
                     </h1 >
                 </div>
@@ -67,7 +67,7 @@ const parttwo = () => {
         <div className="grid grid-col-2 md:grid-flow-col font-['Rubik'] my-5">
         <div className="mx-5 my-14">
                  <div className="mb-5 font-bold text-4xl">
-                    <h1>
+                    <h1 className="font-extrabold text-transparent text-lg md:text-4xl bg-clip-text bg-gradient-to-r from-orange-500 via-slate-400 to-lime-500">
                         Hiburan Bersama Keluarga! 
                     </h1 >
                 </div>

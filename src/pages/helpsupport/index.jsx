@@ -1,7 +1,6 @@
 import React from "react"
 import Navbar from '../../components/navbar';
 import Narrativee from './components/narrativee';
-import Contact from './components/contact'
 import Footer from './../../components/footer';
 import Maps from "./components/maps";
 const helpsupport =()=>{
@@ -9,7 +8,6 @@ const helpsupport =()=>{
         <>
         <Navbar/>
         <Narrativee/>
-        <Contact/>
         <Maps/>
         <Footer/>
         </>
