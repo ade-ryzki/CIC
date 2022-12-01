@@ -25,7 +25,7 @@ const parttwo = () => {
                         </p>
                     </div>
                     <div className="bg-white text-center mt-5">
-                        <Link to='/help&support'>
+                        <Link to='/product'>
                         <button className="bg-gradient-to-r from-white  to-orange-400 hover:from-white hover:to-lime-400  rounded-md py-3 px-3 font-semibold">Beli sekarang</button>    
                         </Link>
                     </div>
@@ -57,7 +57,7 @@ const parttwo = () => {
                        </p>
                  </div>
                 <div className="bg-white text-center mt-5">
-                     <Link to='/help&support'>
+                     <Link to='/product'>
                      <button className="bg-gradient-to-r from-white  to-orange-400 hover:from-white hover:to-lime-400  rounded-md py-3 px-3 font-semibold">Beli sekarang</button>    
                      </Link>
                  </div>
@@ -79,7 +79,7 @@ const parttwo = () => {
                        </p>
                  </div>
                 <div className="bg-white text-center mt-5">
-                     <Link to='/help&support'>
+                     <Link to='/product'>
                      <button className="bg-gradient-to-r from-white  to-orange-400 hover:from-white hover:to-lime-400  rounded-md py-3 px-3 font-semibold">Beli sekarang</button>    
                      </Link>
                  </div>
