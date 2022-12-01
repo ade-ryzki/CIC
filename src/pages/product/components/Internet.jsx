@@ -4,112 +4,168 @@ import Wifi from './../../../img/wifii.jpg'
 import Iptv from './../../../img/iptv.jpg'
 import Fiberoptic from './../../../img/fiberoptic.jpg' 
 import Smr from './../../../img/smr.png'
-import Hosting from './../../../img/hosting.jpg' 
+import IC from './../../../img/image 46.png' 
+import ICC from './../../../img/image 43.png'
+import Hosting from './../../../img/hosting.jpg'
 
 const internet = () => {
 	return (
         <>
             <div className="mt-10">
-            <div className="bg-[#FFBA33] bg-opacity-20 font-['Rubik'] py-5 rounded-xl mx-5 my-5">
-                <div className="text-center text-black font-bold text-4xl ">
+            <div className="bg-gradient-to-r from-orange-500 via-slate-400 to-lime-500 font-['Rubik'] py-5 rounded-xl mx-5 my-5">
+                <div className="text-center text-black font-bold text-4xl pb-3 ">
                 <h2>Our Product</h2>
                 </div>
-                <div className="flex flex-wrap justify-around">
-                    <div className="flex flex-wrap justify-around mt-10  ">
-                        <div className="card lg:card-side bg-[#9ACD32] bg-opacity-20  shadow-xl">
-                            <figure><img src={Wifi} alt="Wifi" className="w-48 h-full"/></figure>
-                            <div className="card-body  text-sm">
-                                <h2 className="card-title">Internet!</h2>
-                                    <ul type='square'>
-                                        <li>Dedicated or Broadband </li>
-                                        <li>Network 24/7 monitoring.</li>
-                                        <li>Downtime/Uptime Graph</li>
-                                        <li>Certified Network Engineer.</li>
-                                        <li>Fiber Optic Backbone.</li>
-                                        <li>Data Center with Power Backup.</li>
-                                    </ul>
-                                    <br/>
-                                <div className="card-actions justify-end">
-                                <Link to='/help&support'><button className="btn btn-primary bg-[#CFCFD2] bg-opacity-70">Call / Chat </button></Link>
+                <div className="grid md:grid-flow-col h-[580px] font-['Rubik'] divide-x shadow-lg">
+                    <div className=" bg-white px-3">
+                        <div className=" text-center">
+                            <div className="text-3xl text-black font-bold my-5">
+                            <h1>CIC Pilihan Kita!</h1>
+                            </div>
+                            <div className="mb-5">
+                            <p>
+                                Pelayanan 24 Nonstop
+                                <br /> Lihat Product sekarang !!!
+                            </p>
+                            </div>
+                        </div>
+                    {/* card */}
+                    <div className="card w-96 bg-gradient-to-r from-white  to-lime-400 text-black my-3">
+                        <div className="card-body my-3">
+                        <div className="flex">
+                            <img src={IC} alt="" />
+                            <div className="text-left ">
+                            <h2 className="font-bold text-xl">CIC INI APA YA !</h2>
+                            <p>Katanya viral ini di Kepri dan Pekan baru</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div className="card-body my-3">
+                        <div className="flex">
+                            <img src={ICC} alt="" />
+                            <div className="text-left ">
+                            <h2 className="font-bold text-xl">CIC YA!</h2>
+                            <p>itu Productnya ada di depan kita</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div className="card-body my-3">
+                        <div className="flex">
+                            <img src={IC} alt="" />
+                            <div className="text-left ">
+                            <h2 className="font-bold text-xl">OH IYAAA!</h2>
+                            <p>kita liat yuk apa aja yang ada?</p>
+                            </div>
+                        </div>
+                        </div>
+                        <div className="card-body my-3">
+                        <div className="flex">
+                            <img src={ICC} alt="" />
+                            <div className="text-left ">
+                            <h2 className="font-bold text-xl">KUY CHAT DAN TANYA LANGSUNG!</h2>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    {/* btn */}
+                    <button className="bg-gradient-to-r from-white  to-orange-400 hover:from-white hover:to-lime-400  rounded-md h-20 w-96 font-semibold text-2xl ">
+                        Chat sekarang
+                    </button>
+                    {/* Terms and Condition  */}
+                    <div className="ml-24">
+                    <div className="mx-2 text-black mt-5 mb-96">
+                        <h1>Terms and Condition </h1>
+                        <p> 1. You can only apply 1 coupon per day </p>
+                        <p>2. It only for dine in </p>
+                        <p>3. Buy 1 get 1 only for new user</p>
+                        <p> 4. Should make member card to apply coupon</p>
+                    </div>
+                    </div>
+                    </div>
+
+                    {/* side */}
+                    <div className=" bg-white ">
+                    <div className="flex justify-around font-extrabold text-black text-lg md:text-3xl my-3">
+                        <div>
+                        <h3>Pilih & Hubungi Call Center Kami </h3>
+                        </div>
+                        
+                    </div>
+                    {/* card */}
+                    <div className="">
+                        <div className=" flex flex-wrap justify-center  ">
+                            <div className="card w-96 h-96 bg-gradient-to-r from-white  to-lime-400 shadow-xl my-3 mx-3">
+                                <figure className="px-10 pt-10">
+                                    <img src={Wifi} alt="Wifi" className="rounded-badge" />
+                                </figure>
+                                <div className="card-body items-center text-center">
+                                    <h2 className="card-title mb-3">IPTV + WIFI!</h2>
+                                    <div className="card-actions">
+                                    <Link to='/help&support'>
+                                    <button className="bg-gradient-to-r from-white  to-amber-500 hover:from-white hover:to-orange-500 font-semibold text-lg rounded-md h-10 w-64 ">
+                                        Chat & Beli
+                                    </button>
+                                    </Link>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card w-96 h-96 bg-gradient-to-r from-white  to-lime-400 shadow-xl my-3 mx-3">
+                                <figure className="px-10 pt-10">
+                                    <img src={Iptv} alt="Iptv" className="rounded-badge" />
+                                </figure>
+                                <div className="card-body items-center text-center">
+                                    <h2 className="card-title mb-3">IPTV!</h2>
+                                    <div className="card-actions">
+                                    <button className="bg-gradient-to-r from-white  to-amber-500 hover:from-white hover:to-orange-500 font-semibold text-lg rounded-md h-10 w-64 ">
+                                        Chat & Beli
+                                    </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card w-96 h-96 bg-gradient-to-r from-white  to-lime-400 shadow-xl my-3 mx-3">
+                                <figure className="px-10 pt-10">
+                                    <img src={Smr} alt="Smr" className="rounded-badge" />
+                                </figure>
+                                <div className="card-body items-center text-center">
+                                    <h2 className="card-title mb-3">CIC SMART RESIDENCE!</h2>
+                                    <div className="card-actions">
+                                    <button className="bg-gradient-to-r from-white  to-amber-500 hover:from-white hover:to-orange-500 font-semibold text-lg rounded-md h-10 w-64 ">
+                                        Chat & Beli
+                                    </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card w-96 h-96 bg-gradient-to-r from-white  to-lime-400 shadow-xl my-3 mx-3">
+                                <figure className="px-10 pt-10">
+                                    <img src={Fiberoptic} alt="Fiberoptic" className="rounded-badge" />
+                                </figure>
+                                <div className="card-body items-center text-center">
+                                    <h2 className="card-title mb-3">Fiber Optic Lastmile!</h2>
+                                    <div className="card-actions">
+                                    <button className="bg-gradient-to-r from-white  to-amber-500 hover:from-white hover:to-orange-500 font-semibold text-lg rounded-md h-10 w-64 ">
+                                        Chat & Beli
+                                    </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card w-96 h-96 bg-gradient-to-r from-white  to-lime-400 shadow-xl my-3 mx-3">
+                                <figure className="px-10 pt-10">
+                                    <img src={Hosting} alt="Shoes" className="rounded-badge" />
+                                </figure>
+                                <div className="card-body items-center text-center">
+                                    <h2 className="card-title mb-3">IPTV + WIFI!</h2>
+                                    <div className="card-actions">
+                                    <button className="bg-gradient-to-r from-white  to-amber-500 hover:from-white hover:to-orange-500 font-semibold text-lg rounded-md h-10 w-64 ">
+                                        Chat & Beli
+                                    </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="flex flex-wrap justify-around mt-10  ">
-                        <div className="card lg:card-side bg-[#9ACD32] bg-opacity-20  shadow-xl">
-                            <figure><img src={Iptv} alt="Iptv" className="w-48 h-full"/></figure>
-                            <div className="card-body  text-sm">
-                                <h2 className="card-title">IPTV!</h2>
-                                    <ul type='square'>
-                                        <li>Unlimited Bandwidth</li>
-                                        <li>Koneksi OpenIX Bersama 1GB</li>
-                                        <li>Koneksi Internasional Bersama 100 MB</li>
-                                        <li>Terletak di IDC Jakarta</li>
-                                        <li>Dukungan Pusat Data Sisco</li>
-                                    </ul>
-                                    <br/>
-                                    <br/>
-                                <div className="card-actions justify-end">
-                                <Link to='/help&support'><button className="btn btn-primary bg-[#CFCFD2] bg-opacity-70">Call / Chat </button></Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-wrap justify-around mt-10  ">
-                        <div className="card lg:card-side bg-[#9ACD32] bg-opacity-20  shadow-xl">
-                            <figure><img src={Fiberoptic} alt="Fiberoptic" className="w-48 h-full"/></figure>
-                            <div className="card-body  text-sm">
-                                <h2 className="card-title">Fiber Optic Last Mile!</h2>
-                                <h3>Cakupan Layanan FO di <br/>wilayah Batam sekitar Daerah</h3>
-                                    <ul type='square'>
-                                        <li>Nagoya</li>
-                                        <li>Pusat Batam</li>
-                                        <li>Tiban</li>
-                                        <li>Bati Aji</li>
-                                        <li>Nongsa</li>
-                                    </ul>
-                                <div className="card-actions justify-end">
-                                <Link to='/help&support'><button className="btn btn-primary bg-[#CFCFD2] bg-opacity-70">Call / Chat </button></Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-wrap justify-around mt-10  ">
-                        <div className="card lg:card-side bg-[#9ACD32] bg-opacity-20  shadow-xl">
-                            <figure><img src={Smr} alt="Smr" className="w-48 h-full"/></figure>
-                            <div className="card-body  text-sm">
-                                <h2 className="card-title">Cic Smart Residence!</h2>
-                                    <ul type='square'>
-                                        <li>Integrated Barier Gate</li>
-                                        <li>CCTV HD Resolution</li>
-                                        <li>iResidence</li>
-                                        <li>Panic Button</li>
-                                    </ul>
-                                <div className="card-actions justify-end">
-                                <Link to='/help&support'><button className="btn btn-primary bg-[#CFCFD2] bg-opacity-70">Call / Chat </button></Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="flex flex-wrap justify-around mt-10  ">
-                        <div className="card lg:card-side bg-[#9ACD32] bg-opacity-20  shadow-xl">
-                            <figure><img src={Hosting} alt="Hosting" className="w-48 h-full"/></figure>
-                            <div className="card-body  text-sm">
-                                <h2 className="card-title">Hosting!</h2>
-                                    <ul type='square'>
-                                        <li>Unlimited Bandwidth</li>
-                                        <li>Koneksi OpenIX Bersama 1GB</li>
-                                        <li>Koneksi Internasional Bersama 100 MB</li>
-                                        <li>Terletak di IDC Jakarta</li>
-                                        <li>Dukungan Pusat Data Sisco</li>
-                                    </ul>
-                                <div className="card-actions justify-end">
-                                <Link to='/help&support'><button className="btn btn-primary bg-[#CFCFD2] bg-opacity-70">Call / Chat </button></Link>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
+
             </div>
             </div>
         </>     

@@ -9,8 +9,6 @@ const product =()=>{
         <Navbar/>
         <Bannerproduct/>
         <Internet/>
-        <Footer/>
-        <div></div>
         </>
     )
 }

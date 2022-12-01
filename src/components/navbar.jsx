@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Navbar =()=>{
     return(
         <>
-         <div className=" navbar font-['Rubik']  divide-y-reverse shadow-sm">
+         <div className=" navbar font-['Rubik']  divide-y-reverse shadow-sm py-5">
             <div className="navbar-start ml-5">
                 <div className="dropdown ">
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -38,8 +38,8 @@ const Navbar =()=>{
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0 text-xl font-semibold">
-                <Link to='/'><li><a className='hover:underline duration-300 text-lg'>Home</a></li></Link>
-                <Link to='/product'><li><a className='hover:underline duration-300 text-lg'>Product</a></li></Link>
+                <Link to='/'><li><a className='hover:underline duration-300 text-2xl'>Home</a></li></Link>
+                <Link to='/product'><li><a className='hover:underline duration-300 text-2xl'>Product</a></li></Link>
                 {/* <li tabIndex={0}>
                     <a className="text-xl font-semibold" href='/product'>
                     Product
@@ -55,14 +55,14 @@ const Navbar =()=>{
                 </li> */}
                 <li>
                     <Link to='/about'>
-                        <a className="hover:underline duration-300 text-lg">About CIC</a>
+                        <a className="hover:underline duration-300 text-2xl">About CIC</a>
                     </Link>
                 </li>
                 </ul>
             </div>
             <div className="navbar-end mr-5">
                 <Link to='/help&support'>
-                <button className="bg-gradient-to-r from-white  to-orange-400 hover:from-white hover:to-lime-400  rounded-md py-1 px-3">Help & Support</button>    
+                <button className="bg-gradient-to-r from-white  to-orange-400 hover:from-white hover:to-lime-400  rounded-md py-1 px-3 text-lg md:text-2xl">Help & Support</button>    
                 </Link>
             </div>
         </div>
