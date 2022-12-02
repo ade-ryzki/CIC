@@ -5,8 +5,6 @@ import About from './pages/about/index';
 import Contact from './pages/helpsupport/index'
 import Product from './pages/product/index'
 
-
-
 const App=()=> {
   return(
       <Routes>
