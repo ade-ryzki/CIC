@@ -1,5 +1,5 @@
 import React from "react"
-import HD from './../../../img/HD.png'
+import HD from './../../../img/HDD.png'
 
 const narrativee =()=>{
     return (
@@ -11,8 +11,8 @@ const narrativee =()=>{
             <br/>
             <br/>
         <div className="grid grid-col-2 md:grid-flow-col font-['rubik'] bg-base-200">
-            <div className="m-5">
-            <img src={HD} alt='HD' className="w-96 h-72 opacity-90"/>
+            <div className="">
+            <img src={HD} alt='HD' className="w-full  opacity-90"/>
             </div>
             <div className="mx-5 w-full bg-gradient-to-r from-white  to-lime-400 ">
                 <div className=" text-justify font-['rubik']  text-2xl mr-5 p-5 ">

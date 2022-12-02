@@ -27,66 +27,15 @@ import cicsupport from './../../../img/cicsupport.png'
     return (
       <>
         <div className="font-['Rubik'] my-10 ">
+            
             <div className=" bg-gradient-to-r from-white  to-lime-400 font-['Rubik'] py-20   shadow-md">
-                <div className="text-center text-black font-bold text-4xl ">
-                    <h2>Office Location</h2>
-                </div>
-                <div className="flex flex-wrap justify-center mt-10  ">
-                    <div className=" bg-[#CFCFD2] bg-opacity-40 rounded-md shadow-lg ">
-                        <div className="m-3">
-                        <LoadScript googleMapsApiKey={'AIzaSyBs6yGE8J7HTXLHjCXithuIVHAYU4I87X0'}>
-                            <GoogleMap
-                                mapContainerStyle={containerStyle}
-                                center={center}
-                                zoom={20}
-                            >
-                                <Marker className=''
-                                //Titik Marker akan di letakkan dengan menentukan LongLat
-                                position={{
-                                    lat: 1.1533874199001755,
-                                    lng: 104.0047102910837,
-                                    
-                                }}
-                                // Jika Ingin Marker dapat di drag rubah value draggable menjadi true
-                                draggable={false}
-                                />
-                            </GoogleMap>
-                        </LoadScript>
-                        </div>
-                    </div>
-                    <div className=" bg-[#CFCFD2] bg-opacity-40 rounded-md shadow-lg mx-5 ">
-                        <div className=" bg-[#FFBA33] bg-opacity-20 rounded-lg m-3 p-3 shadow-2xl ">
-                            <div>
-                                <h1 className="font-['Rubik'] font-semibold text-center text-2xl">PT. Cipta Informatika Cemerlang</h1>
-                                <br/>
-                                <h3 className="text-left font-semibold text-xl">Batam Head Office : </h3>
-                                <p>Komplek Jodoh Square, Blok D, No. 43-45
-                                Sei jodoh, Batuampar, Batam<br/>
-                                Kepulauan Riau - Indonesia</p>
-                            </div>
-                            <div>
-                                <br/>
-                                <h3 className="text-left font-semibold text-xl">Pekan Baru Branch Office : </h3>
-                                <p>Jl. Karya Indah, Karya Jaya, Jl. Riau Ujung No.18, 
-                                Payung Sekali, Pekan Baru <br/>
-                                Riau</p>
-                            </div>
-                            <div>
-                                <br/>
-                                <h3 className="text-left font-semibold text-xl">Pekan Baru Branch Office : </h3>
-                                <p>Jl. A. Yani Kompleks Telaga Mas No 08
-                                Kolong, Tanjung Balai Karimun.
-                                Kepulauan Riau</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="font-['Rubik']  ">
-                <div className="bg-gradient-to-r mt-10">
+            <div className="font-['Rubik']  ">
+                {/* our contact */}
+                <div className="bg-gradient-to-r mx-10">
                     <div className="text-center text-black font-bold text-4xl ">
                         <h2>Contact Us</h2>
                     </div>
-                    <div className="flex flex-wrap justify-center mt-10  ">
+                    <div className="flex flex-wrap justify-center mx-10  ">
                             <label htmlFor="my-modal-3" >
                                 <div className="mx-5 my-5 item-center">
                                     <img src={chat} alt="" className="w-16"/>
@@ -149,7 +98,61 @@ import cicsupport from './../../../img/cicsupport.png'
                         </div>
                     </div>
                 </div>
-            </div>
+                {/* Map */}
+                </div>
+                <div className="text-center text-black font-bold text-4xl mt-20 ">
+                    <h2>Office Location</h2>
+                </div>
+                <div className="flex flex-wrap justify-center mt-10  ">
+                    <div className=" bg-[#CFCFD2] bg-opacity-40 rounded-md shadow-lg ">
+                        <div className="m-3">
+                        <LoadScript googleMapsApiKey={'AIzaSyBs6yGE8J7HTXLHjCXithuIVHAYU4I87X0'}>
+                            <GoogleMap
+                                mapContainerStyle={containerStyle}
+                                center={center}
+                                zoom={20}
+                            >
+                                <Marker className=''
+                                //Titik Marker akan di letakkan dengan menentukan LongLat
+                                position={{
+                                    lat: 1.1533874199001755,
+                                    lng: 104.0047102910837,
+                                    
+                                }}
+                                // Jika Ingin Marker dapat di drag rubah value draggable menjadi true
+                                draggable={false}
+                                />
+                            </GoogleMap>
+                        </LoadScript>
+                        </div>
+                    </div>
+                    <div className=" bg-[#CFCFD2] bg-opacity-40 rounded-md shadow-lg mx-5 ">
+                        <div className=" bg-[#FFBA33] bg-opacity-20 rounded-lg m-3 p-3 shadow-2xl ">
+                            <div>
+                                <h1 className="font-['Rubik'] font-semibold text-center text-2xl">PT. Cipta Informatika Cemerlang</h1>
+                                <br/>
+                                <h3 className="text-left font-semibold text-xl">Batam Head Office : </h3>
+                                <p>Komplek Jodoh Square, Blok D, No. 43-45
+                                Sei jodoh, Batuampar, Batam<br/>
+                                Kepulauan Riau - Indonesia</p>
+                            </div>
+                            <div>
+                                <br/>
+                                <h3 className="text-left font-semibold text-xl">Pekan Baru Branch Office : </h3>
+                                <p>Jl. Karya Indah, Karya Jaya, Jl. Riau Ujung No.18, 
+                                Payung Sekali, Pekan Baru <br/>
+                                Riau</p>
+                            </div>
+                            <div>
+                                <br/>
+                                <h3 className="text-left font-semibold text-xl">Pekan Baru Branch Office : </h3>
+                                <p>Jl. A. Yani Kompleks Telaga Mas No 08
+                                Kolong, Tanjung Balai Karimun.
+                                Kepulauan Riau</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             
             </div>

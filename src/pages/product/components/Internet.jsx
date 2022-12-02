@@ -72,29 +72,29 @@ const internet = () => {
                         Chat sekarang
                     </button>
                     {/* Terms and Condition  */}
-                    <div className="ml-24">
-                    <div className="mx-2 text-black mt-5 mb-96">
+                    <div className="font-semibold">
+                    <div className="mx-2 text-black mt-5 mb-96 text-center md:text-left">
                         <h1>Terms and Condition </h1>
-                        <p> 1. You can only apply 1 coupon per day </p>
-                        <p>2. It only for dine in </p>
-                        <p>3. Buy 1 get 1 only for new user</p>
-                        <p> 4. Should make member card to apply coupon</p>
+                        <p> 1. Terdapat beberapa Paketnya </p>
+                        <p>2. Tergantung Kebutuhan Penggunaan</p>
+                        <p>3. Harga Pemasangan Tergantung Lokasi</p>
+                        <p> 4. Harga Paket Tergantung Lokasi</p>
                     </div>
                     </div>
                     </div>
 
                     {/* side */}
                     <div className=" bg-white ">
-                    <div className="flex justify-around font-extrabold text-black text-lg md:text-3xl my-3">
+                    <div className="flex justify-around font-extrabold text-black text-lg md:text-3xl my-3 mt-10">
                         <div>
                         <h3>Pilih & Hubungi Call Center Kami </h3>
                         </div>
                         
                     </div>
                     {/* card */}
-                    <div className="">
-                        <div className=" flex flex-wrap justify-center  ">
-                            <div className="card w-96 h-96 bg-gradient-to-r from-white  to-lime-400 shadow-xl my-3 mx-3">
+                    <div className="mt-16">
+                        <div className=" flex flex-wrap justify-center">
+                            <div className="card w-72 h-w-72 bg-gradient-to-r from-white  to-lime-400 shadow-xl my-8 mx-8">
                                 <figure className="px-10 pt-10">
                                     <img src={Wifi} alt="Wifi" className="rounded-badge" />
                                 </figure>
@@ -109,7 +109,7 @@ const internet = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card w-96 h-96 bg-gradient-to-r from-white  to-lime-400 shadow-xl my-3 mx-3">
+                            <div className="card w-72 h-w-72 bg-gradient-to-r from-white  to-lime-400 shadow-xl my-8 mx-8">
                                 <figure className="px-10 pt-10">
                                     <img src={Iptv} alt="Iptv" className="rounded-badge" />
                                 </figure>
@@ -122,7 +122,7 @@ const internet = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card w-96 h-96 bg-gradient-to-r from-white  to-lime-400 shadow-xl my-3 mx-3">
+                            <div className="card w-72 h-w-72 bg-gradient-to-r from-white  to-lime-400 shadow-xl my-8 mx-8">
                                 <figure className="px-10 pt-10">
                                     <img src={Smr} alt="Smr" className="rounded-badge" />
                                 </figure>
@@ -135,7 +135,7 @@ const internet = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card w-96 h-96 bg-gradient-to-r from-white  to-lime-400 shadow-xl my-3 mx-3">
+                            <div className="card w-72 h-w-72 bg-gradient-to-r from-white  to-lime-400 shadow-xl my-8 mx-8">
                                 <figure className="px-10 pt-10">
                                     <img src={Fiberoptic} alt="Fiberoptic" className="rounded-badge" />
                                 </figure>
@@ -148,7 +148,7 @@ const internet = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="card w-96 h-96 bg-gradient-to-r from-white  to-lime-400 shadow-xl my-3 mx-3">
+                            <div className="card w-72 h-w-72 bg-gradient-to-r from-white  to-lime-400 shadow-xl my-8 mx-8">
                                 <figure className="px-10 pt-10">
                                     <img src={Hosting} alt="Shoes" className="rounded-badge" />
                                 </figure>
@@ -165,7 +165,6 @@ const internet = () => {
                     </div>
                     </div>
                 </div>
-
             </div>
             </div>
         </>     
