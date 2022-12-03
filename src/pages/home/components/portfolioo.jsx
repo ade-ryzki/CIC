@@ -35,8 +35,8 @@ const Portfolioo = () => {
                               className="w-96 h-full"/>
                               </figure>
                                 <div className="card-body">
-                                    <h2 className="card-title text-lg text-lg">{portfolio.title}</h2>
-                                    <p className="text-sm flex flex flex-wrap justify-start">{portfolio.description}</p>
+                                    <h2 className="card-title text-lg">{portfolio.title}</h2>
+                                    <p className="text-sm flex flex-wrap justify-start">{portfolio.description}</p>
                                 </div>  
                                 </div>
                                 </div>

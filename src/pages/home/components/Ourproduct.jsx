@@ -20,7 +20,7 @@ const parttwo = () => {
                     <div>
                         <p className="text-xl">
                             Tingkatkan kemampuan dan jadi Pro Player atau Gamer Indonesia<br/><br/>
-                            <a className="font-semibold">CIC Gaming</a> memiliki bandwidth hingga 100 Mbps dengan Ip Public.<br/>
+                            <p className="font-semibold">CIC Gaming</p> memiliki bandwidth hingga 100 Mbps dengan Ip Public.<br/>
                             Nikmati sensai terbaik tampa Lag! dan jadilah pemenang!
                         </p>
                     </div>
@@ -53,7 +53,7 @@ const parttwo = () => {
                 <div>
                        <p className="text-xl">
                            Di Era digital aktivitas sehari-hari semua butuh Internet, seperti meeting,<br/> Belajar, streaming dan Bermain Game <br/><br/>
-                           <a className="font-semibold">CIC Home</a> Hadir dengan bandwidth 10 hingga 100 Mbps serta <br/>Unlimited kuota. Kamu bisa lakukan aktivitas 24 Jam tanpa<br/> khawatir kehabisan kuota
+                           <p className="font-semibold">CIC Home</p> Hadir dengan bandwidth 10 hingga 100 Mbps serta <br/>Unlimited kuota. Kamu bisa lakukan aktivitas 24 Jam tanpa<br/> khawatir kehabisan kuota
                        </p>
                  </div>
                 <div className="bg-white text-center mt-5">
@@ -74,7 +74,7 @@ const parttwo = () => {
                 <div>
                        <p className="text-xl">
                            Bangun hubungan harmonis dan momen berkesan dengan<br/> Internet dan Program TV berkualitas <br/><br/>
-                           <a className="font-semibold">CIC Home Combo IPTV</a> dengan resolusi gambar 4K terbaik dan <br/>bandwidth mulai dari 10 Mbps. Dapatkan konten hiburan berkualitas<br/>
+                           <p className="font-semibold">CIC Home Combo IPTV</p> dengan resolusi gambar 4K terbaik dan <br/>bandwidth mulai dari 10 Mbps. Dapatkan konten hiburan berkualitas<br/>
                             yang dapat dinikmati kapan saja.
                        </p>
                  </div>
