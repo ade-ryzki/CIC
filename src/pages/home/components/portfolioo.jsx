@@ -1,12 +1,22 @@
-import React from "react";
-import Nagoya from'./../../../img/nagoya hill.jpg'
-import Radison from './../../../img/radison.jpg'
-import Haris from './../../../img/haris.jpg'
-import Pasific from './../../../img/pasific.jpg'
-import APJII from'./../../../img/APJII.jpeg'
-import sosialisasi from './../../../img/sosialisasi.jpeg'
-import { Link } from 'react-router-dom';
-const portfolioo = () => {
+import React, { useEffect } from "react";
+// import Nagoya from'./../../../img/nagoya hill.jpg'
+// import Radison from './../../../img/radison.jpg'
+// import Haris from './../../../img/haris.jpg'
+// import Pasific from './../../../img/pasific.jpg'
+// import APJII from'./../../../img/APJII.jpeg'
+// import sosialisasi from './../../../img/sosialisasi.jpeg'
+import { GetPortfolio } from "../../../redux/actions/Portfolio";
+import { useDispatch, useSelector } from "react-redux";
+
+const Portfolioo = () => {
+    const dispatch = useDispatch();
+    useEffect(()=>{
+        dispatch(GetPortfolio());
+    },[]);
+
+    const data = useSelector((state)=> state.portfolio)
+    console.log(data.data, "test data manaaa oiiii");
+
 	return (
         <>
             <div>
@@ -15,16 +25,25 @@ const portfolioo = () => {
                 <h2 className="my-5">Portfolio</h2>
                 </div>
                <div className="carousel carousel-center  p-4 space-x-4 bg-neutral rounded-box">
+               {data.data.map((portfolio, index) => {
+                return(
                <div className="carousel-item">
-                    <div className="card lg:card-side bg-[#CFCFD2] bg-opacity-70 shadow-xl">
-                    <figure><img src={APJII} alt="Nagoya" className="w-96 h-full"/></figure>
-                    <div className="card-body">
-                        <h2 className="card-title text-lg text-lg">INTERNET EXPO 2022 APJII KEPRI</h2>
-                        <p className="text-sm">Event APJII yang diadakan di One Mall Batam November 2022</p>
-                    </div>
-                    </div>
-                </div> 
-                <div className="carousel-item">
+                    <div className="card lg:card-side bg-[#CFCFD2] bg-opacity-70 shadow-xl" key={index}>
+                              <figure><img 
+                              src={`${process.env.REACT_APP_PORTFOLIO}/${portfolio.image}`} 
+                              alt={"Nagoya"} 
+                              className="w-96 h-full"/>
+                              </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title text-lg text-lg">{portfolio.title}</h2>
+                                    <p className="text-sm flex flex flex-wrap justify-start">{portfolio.description}</p>
+                                </div>  
+                                </div>
+                                </div>
+                            )
+                        })}
+                 
+                {/* <div className="carousel-item">
                     <div className="card lg:card-side bg-[#CFCFD2] bg-opacity-70 shadow-xl">
                     <figure><img src={sosialisasi} alt="Nagoya" className="w-96 h-full"/></figure>
                     <div className="card-body">
@@ -83,7 +102,7 @@ const portfolioo = () => {
                         Project April 2013 - May 2015 </p>
                     </div>
                     </div>
-                </div>
+                </div> */}
             </div> 
             </div>
             </div>
@@ -92,4 +111,4 @@ const portfolioo = () => {
 	);
 };
 
-export default portfolioo;
+export default Portfolioo;
