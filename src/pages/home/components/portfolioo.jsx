@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-// import Nagoya from'./../../../img/nagoya hill.jpg'
-// import Radison from './../../../img/radison.jpg'
-// import Haris from './../../../img/haris.jpg'
-// import Pasific from './../../../img/pasific.jpg'
-// import APJII from'./../../../img/APJII.jpeg'
-// import sosialisasi from './../../../img/sosialisasi.jpeg'
+import Nagoya from'./../../../img/nagoya hill.jpg'
+import Radison from './../../../img/radison.jpg'
+import Haris from './../../../img/haris.jpg'
+import Pasific from './../../../img/pasific.jpg'
+import APJII from'./../../../img/APJII.jpeg'
+import sosialisasi from './../../../img/sosialisasi.jpeg'
 import { GetPortfolio } from "../../../redux/actions/Portfolio";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -15,7 +15,7 @@ const Portfolioo = () => {
     },[]);
 
     const data = useSelector((state)=> state.portfolio)
-    console.log(data.data, "test data manaaa oiiii");
+    console.log(data.data, "test data manaaa");
 
 	return (
         <>
@@ -25,24 +25,26 @@ const Portfolioo = () => {
                 <h2 className="my-5">Portfolio</h2>
                 </div>
                <div className="carousel carousel-center  p-4 space-x-4 bg-neutral rounded-box">
-               {data.data.map((portfolio, index) => {
+               {data.data.map((portfolio, index) => { 
+                console.log(`${'http://localhost:4117/uploads'}/${portfolio.image}`,'whereeee')
                 return(
-               <div className="carousel-item">
-                    <div className="card lg:card-side bg-[#CFCFD2] bg-opacity-70 shadow-xl" key={index}>
-                              <figure><img 
-                              src={`${process.env.REACT_APP_PORTFOLIO}/${portfolio.image}`} 
-                              alt={"Nagoya"} 
-                              className="w-96 h-full"/>
-                              </figure>
-                                <div className="card-body">
-                                    <h2 className="card-title text-lg">{portfolio.title}</h2>
-                                    <p className="text-sm flex flex-wrap justify-start">{portfolio.description}</p>
-                                </div>  
+                        <div className="carousel-item">
+                                <div className="card w-96 bg-slate-300 shadow-xl">
+                                <figure className="px-10 pt-10">
+                                    <img src={`${'http://localhost:4117/uploads'}/${portfolio.image}`}
+                                    alt="Shoes" 
+                                    className="rounded-xl" />
+                                </figure>
+                                <div className="card-body items-center text-center">
+                                    <h2 className="card-title">{portfolio.title}</h2>
+                                    <p>{portfolio.description}</p>
                                 </div>
-                                </div>
+                            </div>
+                         </div>
                             )
                         })}
-                 
+
+
                 {/* <div className="carousel-item">
                     <div className="card lg:card-side bg-[#CFCFD2] bg-opacity-70 shadow-xl">
                     <figure><img src={sosialisasi} alt="Nagoya" className="w-96 h-full"/></figure>
