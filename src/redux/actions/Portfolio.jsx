@@ -25,7 +25,7 @@ export const GetPortfolio = () => {
     dispatch(GetPortfolioRequest());
     axios({
       method: "GET",
-      url: `http://localhost:4117/api/v1/portfolio`,
+      url: `http://113.212.160.6/api/v1/portfolio/`,
     })
       .then((res) => {
         //ketika sukses, dispatch sucess
