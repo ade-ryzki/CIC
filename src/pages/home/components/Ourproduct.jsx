@@ -86,7 +86,7 @@ const parttwo = () => {
             </div>
             <div className="bg-white text-center">
                 <div className=" text-center">
-                    <img src={layout3} alt="teamwork w-full" />
+                    <img src={layout3} alt="teamwork " />
                 </div>
             </div>
         </div>

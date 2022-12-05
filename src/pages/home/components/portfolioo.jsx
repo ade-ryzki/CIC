@@ -28,8 +28,8 @@ const Portfolioo = () => {
                {data.data.map((portfolio, index) => { 
                 console.log(`${'http://localhost:4117/uploads'}/${portfolio.image}`,'whereeee')
                 return(
-                        <div className="carousel-item">
-                                <div className="card w-96 bg-slate-300 shadow-xl">
+                        <div className="carousel-item font-['Rubik']">
+                                <div className="card w-96 bg-gradient-to-r from-lime-300 to-orange-200 shadow-xl">
                                 <figure className="px-10 pt-10">
                                     <img src={`${'http://localhost:4117/uploads'}/${portfolio.image}`}
                                     alt="Shoes" 
