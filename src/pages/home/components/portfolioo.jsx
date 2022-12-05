@@ -43,8 +43,6 @@ const Portfolioo = () => {
                          </div>
                             )
                         })}
-
-
                 {/* <div className="carousel-item">
                     <div className="card lg:card-side bg-[#CFCFD2] bg-opacity-70 shadow-xl">
                     <figure><img src={sosialisasi} alt="Nagoya" className="w-96 h-full"/></figure>
