@@ -25,7 +25,7 @@ const Portfolioo = () => {
                 <h2 className="my-5">Portfolio</h2>
                 </div>
                <div className="carousel carousel-center  p-4 space-x-4 bg-neutral rounded-box">
-               {data.data.map((portfolio, index) => { 
+               {/* {data.data.map((portfolio, index) => { 
                 // console.log(`${'http://localhost:4117/uploads'}/${portfolio.image}`,'whereeee')
                 return(
                         <div className="carousel-item font-['Rubik']">
@@ -42,8 +42,8 @@ const Portfolioo = () => {
                             </div>
                          </div>
                             )
-                        })}
-                    {/* <div className="carousel-item">
+                        })} */}
+                    <div className="carousel-item">
                         <div className="card lg:card-side bg-[#CFCFD2] bg-opacity-70 shadow-xl">
                         <figure><img src={sosialisasi} alt="Nagoya" className="w-96 h-full"/></figure>
                         <div className="card-body">
@@ -102,7 +102,7 @@ const Portfolioo = () => {
                             Project April 2013 - May 2015 </p>
                         </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div> 
             </div>
             </div>
